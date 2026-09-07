@@ -1,0 +1,801 @@
+Explain why the sky appears blue during the day and why sunsets often appear red or orange.
+
+Write a Python function that takes a list of integers and returns the two largest distinct values. Explain the time and space complexity.
+
+What is the derivative of f(x) = x^3 + 2x^2 - 5x + 7? Show the steps.
+
+Design a REST API endpoint for creating a new user. Describe the request body, validation rules, response format, and possible error responses.
+
+Explain the difference between a Python list, tuple, set, and dictionary, including when each data structure is most appropriate.
+
+A company has 120 employees. 35% work remotely, and 40% of the remote employees work from another state. How many employees work remotely from another state?
+
+Write a SQL query that returns the top five customers by total purchase amount from an orders table containing customer_id and amount columns.
+
+Explain the concept of recursion using a simple example, and compare it with an iterative solution.
+
+Summarize the main considerations when designing a reliable distributed system.
+
+A software team is debugging a production service that occasionally returns HTTP 500 errors. Propose a systematic investigation strategy.
+
+Explain overfitting in machine learning and describe three techniques commonly used to reduce it.
+
+Given a sorted array of integers, explain how binary search works and provide pseudocode.
+
+What are the advantages and disadvantages of using JSON for exchanging data between services?
+
+Explain the difference between precision, recall, and F1 score and give an example where precision is more important than recall.
+
+Write a Python function that determines whether a string is a palindrome while ignoring spaces, punctuation, and capitalization.
+
+Describe the purpose of attention mechanisms in transformer-based language models.
+
+Explain how gradient descent works when training a neural network.
+
+A user asks an AI assistant to return a JSON object containing their name, age, and city. Describe how you would ensure the output follows the required schema.
+
+Explain the trade-offs between increasing model size and increasing numerical precision when deploying a language model locally.
+
+Describe three potential causes of slow inference in a locally hosted language model and how you would diagnose each one.
+
+Explain the difference between a process and a thread in an operating system.
+
+What is a hash table, and what is its average-case lookup complexity?
+
+Write a Python function that counts the frequency of each word in a paragraph.
+
+Explain what a database index does and when an index can actually make performance worse.
+
+What is the difference between authentication and authorization?
+
+Describe how HTTPS protects data while it travels between a client and server.
+
+Write a regular expression that validates a simple US ZIP code in either five-digit or ZIP+4 format.
+
+Explain the difference between shallow copy and deep copy in Python.
+
+What is a race condition, and how can concurrent programs prevent one?
+
+Describe the CAP theorem and explain what its trade-offs mean for distributed databases.
+
+Write a SQL query that finds duplicate email addresses in a users table.
+
+Explain the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
+
+What is normalization in relational database design, and why is it useful?
+
+Explain what an API rate limiter does and why services need one.
+
+Design a caching strategy for a web application that receives millions of read requests.
+
+What is eventual consistency? Give a practical example.
+
+Explain the purpose of a message queue such as Kafka or RabbitMQ.
+
+What is idempotency in an API, and why is it important for payment operations?
+
+Describe how a load balancer distributes traffic among application servers.
+
+Explain the difference between horizontal and vertical scaling.
+
+Write Python code that removes duplicate elements from a list while preserving their original order.
+
+Explain Big-O notation using examples of O(1), O(log n), O(n), and O(n²).
+
+What is a binary tree, and how does a binary search tree work?
+
+Explain breadth-first search and depth-first search.
+
+Write pseudocode for finding the shortest path in an unweighted graph.
+
+What is a heap data structure, and where is it commonly used?
+
+Explain the difference between a stack and a queue.
+
+Describe how a hash function should behave for use in a hash table.
+
+Write a Python function that merges two sorted lists into one sorted list.
+
+Explain dynamic programming and the difference between memoization and tabulation.
+
+A program takes 10 seconds to process one million records. If its runtime is approximately linear, estimate the processing time for five million records.
+
+Explain floating-point precision and why decimal values such as 0.1 can be difficult to represent exactly in binary.
+
+What is the difference between an integer overflow and a floating-point overflow?
+
+Explain matrix multiplication conceptually and describe its computational complexity.
+
+Solve the equation 3x + 7 = 22 and explain each step.
+
+A train travels 180 miles in 3 hours. What is its average speed?
+
+If a product costs $80 and is discounted by 25%, what is the final price?
+
+A dataset contains 80 positive examples and 120 negative examples. What percentage of the dataset is positive?
+
+Explain the difference between correlation and causation.
+
+What is a confidence interval in statistics?
+
+Explain standard deviation in intuitive terms.
+
+What is the difference between mean, median, and mode?
+
+Describe what a probability distribution represents.
+
+Explain Bayes' theorem using a simple real-world example.
+
+What is the difference between supervised, unsupervised, and reinforcement learning?
+
+Explain the bias-variance trade-off in machine learning.
+
+What is a confusion matrix?
+
+Explain why accuracy can be misleading when classes are highly imbalanced.
+
+Describe the purpose of cross-validation.
+
+What is feature engineering, and why can it improve a machine learning model?
+
+Explain regularization and compare L1 and L2 regularization.
+
+What is the difference between batch, stochastic, and mini-batch gradient descent?
+
+Explain why normalization or standardization of input features can help model training.
+
+What is an embedding in a machine learning model?
+
+Explain what a transformer architecture is at a high level.
+
+What does self-attention allow a transformer to do?
+
+Explain the purpose of positional information in transformer models.
+
+What is a token in a language model?
+
+Why do language models use tokenization instead of processing raw text character by character?
+
+Explain the difference between training, validation, and test datasets.
+
+What is perplexity and how is it used to evaluate language models?
+
+Explain temperature sampling in text generation.
+
+What are top-k and top-p sampling?
+
+Describe the difference between greedy decoding and beam search.
+
+What is an autoregressive language model?
+
+Explain the difference between a base language model and an instruction-tuned model.
+
+Why can a language model produce confident but incorrect answers?
+
+Describe hallucination in generative AI and two approaches for reducing it.
+
+What is retrieval-augmented generation and why can it improve factual responses?
+
+Explain the difference between fine-tuning and prompt engineering.
+
+What is parameter-efficient fine-tuning?
+
+Explain the basic idea behind LoRA.
+
+What is quantization in machine learning?
+
+Why does reducing numerical precision reduce model size?
+
+Explain the difference between FP32, FP16, BF16, INT8, and INT4.
+
+What is the difference between symmetric and asymmetric quantization?
+
+Explain why quantization can reduce inference memory requirements.
+
+Why can aggressive quantization sometimes reduce model quality?
+
+Describe the trade-off between model size, quality, and inference speed.
+
+What is a calibration dataset in model quantization?
+
+Explain why calibration data should be representative of the intended workload.
+
+What is an importance matrix in the context of neural network quantization?
+
+Explain why different model layers may respond differently to quantization.
+
+Compare a 4-bit model with an 8-bit model in terms of memory and potential quality.
+
+What factors should be considered when choosing a quantization format for local inference?
+
+Describe what GGUF is and why it is useful for local language model inference.
+
+Explain what llama.cpp is designed to do.
+
+What is GPU offloading in local LLM inference?
+
+Why might running a model entirely on a CPU be slower than using a GPU or accelerator?
+
+Explain how memory bandwidth can affect LLM inference performance.
+
+What is the difference between prompt processing and token generation?
+
+Why can the first generated token take longer than subsequent tokens?
+
+Define tokens per second and explain why it is useful for comparing inference configurations.
+
+What factors can cause tokens-per-second performance to vary between machines?
+
+Explain the difference between latency and throughput.
+
+Design a benchmark for comparing two local language model quantizations.
+
+What measurements would you record when evaluating a quantized model?
+
+How would you make a model benchmark reproducible?
+
+Explain why random seeds matter when evaluating generative models.
+
+What is an A/B experiment and how could it be used to compare two LLM quantizations?
+
+Describe a fair method for comparing the output quality of two language models.
+
+Write Python code that reads a JSON file and prints all records where the age field is greater than 30.
+
+Write a Python function that returns the first non-repeating character in a string.
+
+Write Python code to group a list of dictionaries by a specified field.
+
+Write a SQL query that returns monthly revenue from an orders table.
+
+Write a SQL query that calculates the average order value for each customer.
+
+Write a SQL query that returns customers who have never placed an order.
+
+Explain what a database transaction is.
+
+Describe the ACID properties of a relational database transaction.
+
+What is a deadlock in a database?
+
+Explain optimistic versus pessimistic locking.
+
+Describe how database connection pooling works.
+
+What is a primary key and why should it be unique?
+
+What is a foreign key?
+
+Explain the difference between OLTP and OLAP workloads.
+
+Describe the purpose of a data warehouse.
+
+What is a star schema?
+
+Explain the difference between batch processing and stream processing.
+
+What is ETL and how does it differ from ELT?
+
+Explain what a data pipeline does.
+
+Describe three ways a data pipeline can fail and how to detect them.
+
+What is data validation and why is it important?
+
+Explain the difference between missing data and zero values.
+
+How would you detect outliers in a numerical dataset?
+
+Describe two approaches for handling missing values.
+
+Explain why data leakage is dangerous in machine learning.
+
+What is concept drift in a deployed machine learning system?
+
+Describe how you would monitor a machine learning model after deployment.
+
+What is an inference endpoint?
+
+Explain the difference between synchronous and asynchronous APIs.
+
+Design an API for submitting a long-running data processing job.
+
+What HTTP status code should an API return after successfully creating a resource?
+
+What is the purpose of HTTP status code 404?
+
+What does HTTP status code 429 usually indicate?
+
+Explain the difference between PUT and PATCH.
+
+What is content negotiation in HTTP?
+
+Explain what CORS is and why browsers enforce it.
+
+Describe how cookies differ from local storage in a web browser.
+
+What is a JWT and how is it commonly used?
+
+Explain why secrets should not be hard-coded into source code.
+
+Describe a secure way to store application credentials.
+
+What is the principle of least privilege?
+
+Explain defense in depth in cybersecurity.
+
+What is SQL injection and how can parameterized queries prevent it?
+
+What is cross-site scripting?
+
+Describe how input validation contributes to application security.
+
+Explain encryption at rest versus encryption in transit.
+
+What is a cryptographic hash and how does it differ from encryption?
+
+Explain the purpose of TLS certificates.
+
+What is public-key cryptography?
+
+Describe the role of a private key.
+
+What is a digital signature?
+
+Explain how password hashing differs from encrypting passwords.
+
+Why should passwords generally be salted before hashing?
+
+What is multi-factor authentication?
+
+Explain the principle of zero trust security.
+
+Describe a basic incident-response workflow for a compromised application.
+
+What is observability?
+
+Explain the difference between logs, metrics, and traces.
+
+What is distributed tracing?
+
+Describe the four common golden signals used for monitoring services.
+
+How would you investigate a sudden increase in API latency?
+
+What is a health check endpoint?
+
+Explain liveness versus readiness checks.
+
+What is a circuit breaker pattern?
+
+Describe exponential backoff and when it is useful.
+
+Why should distributed systems use timeouts?
+
+Explain retry storms and how they can be prevented.
+
+What is graceful degradation?
+
+Describe a strategy for handling a dependency that becomes unavailable.
+
+What is a service-level objective?
+
+Explain the difference between SLI, SLO, and SLA.
+
+How would you design a service to tolerate the failure of one availability zone?
+
+What is containerization?
+
+Explain the difference between a container and a virtual machine.
+
+What problem does Docker solve?
+
+What is Kubernetes used for?
+
+Explain the purpose of a Kubernetes deployment.
+
+What is infrastructure as code?
+
+Describe the basic purpose of Terraform.
+
+What is continuous integration?
+
+What is continuous deployment?
+
+Explain the difference between blue-green and canary deployments.
+
+How can automated tests reduce deployment risk?
+
+Describe unit, integration, and end-to-end tests.
+
+What makes a good unit test?
+
+Explain mocking and when it can become harmful.
+
+What is test-driven development?
+
+Describe a practical code-review process.
+
+What makes source code maintainable?
+
+Explain the importance of meaningful variable and function names.
+
+What is technical debt?
+
+How would you prioritize technical debt in a large software system?
+
+Describe how you would debug a program that crashes only in production.
+
+Explain the difference between a compiler and an interpreter.
+
+What is a memory leak?
+
+How can a memory leak affect a long-running service?
+
+Explain garbage collection.
+
+What is a segmentation fault?
+
+Describe the purpose of a debugger.
+
+What is profiling and how can it identify performance bottlenecks?
+
+Explain the difference between CPU-bound and I/O-bound workloads.
+
+What is asynchronous programming?
+
+Compare concurrency and parallelism.
+
+Explain why adding more threads does not always make a program faster.
+
+What is a mutex?
+
+What is a semaphore?
+
+Describe the producer-consumer pattern.
+
+What is backpressure in a data-processing system?
+
+Explain the purpose of batching operations.
+
+Why can excessive network calls make an application slow?
+
+Describe how connection reuse can improve network performance.
+
+What is compression and what trade-offs does it introduce?
+
+Explain the difference between lossless and lossy compression.
+
+Describe a strategy for reducing the size of a large JSON response.
+
+What is pagination and why is it useful for APIs?
+
+Compare offset-based and cursor-based pagination.
+
+What is an API versioning strategy?
+
+Describe how backward compatibility should be handled in a public API.
+
+Explain schema evolution in data systems.
+
+What is a data contract?
+
+How would you design a system that processes ten million events per hour?
+
+Estimate the number of events per second represented by ten million events per hour.
+
+Explain why throughput requirements should include peak traffic rather than only average traffic.
+
+Describe how load testing differs from stress testing.
+
+What is chaos engineering?
+
+Why is fault injection useful in distributed systems?
+
+Design a simple URL-shortening service and identify its main components.
+
+Design a notification service capable of sending email and SMS messages.
+
+Design a file-upload service for large files.
+
+Design a rate-limiting service for a public API.
+
+Explain how you would prevent duplicate processing of the same event.
+
+What is exactly-once processing, and why is it difficult?
+
+Compare at-least-once and at-most-once message delivery.
+
+What is a dead-letter queue?
+
+Explain event-driven architecture.
+
+Compare synchronous request-response systems with event-driven systems.
+
+Describe the advantages of microservices and their major drawbacks.
+
+When might a modular monolith be preferable to microservices?
+
+What is domain-driven design?
+
+Explain bounded contexts.
+
+What is an architecture decision record?
+
+Describe how you would document a major engineering decision.
+
+Explain why technical documentation should include assumptions.
+
+What makes a good README for an open-source project?
+
+How would you make a machine learning experiment reproducible for another engineer?
+
+What information should be recorded when publishing model benchmarks?
+
+Explain why model license information matters when redistributing model derivatives.
+
+Describe the difference between an open-source software license and a model license.
+
+What should you check before publishing a modified machine learning model to a public repository?
+
+Explain semantic versioning.
+
+What is the purpose of a changelog?
+
+How would you organize a GitHub repository for an ML research project?
+
+Describe a good folder structure for scripts, data, models, and results.
+
+Why should generated model artifacts usually be separated from source code?
+
+Explain why large model files may require Git LFS or external model hosting.
+
+What information should a model card contain?
+
+How would you document known limitations of a quantized language model?
+
+Describe an experiment that could determine whether a calibration dataset improves quantization quality.
+
+What would constitute evidence that an imatrix improves a quantized model?
+
+Explain why a single benchmark score may not be enough to evaluate an LLM.
+
+How would you distinguish a genuine quality improvement from measurement noise?
+
+Design a small evaluation suite for comparing local LLM quantizations.
+
+Which metrics would you use to compare model quality, speed, and memory consumption?
+
+Explain why evaluation prompts should be held constant when comparing model variants.
+
+How would you report an experiment where the results contradict your hypothesis?
+
+Describe three common sources of bias in machine learning evaluation.
+
+Why is it important to separate development data from final evaluation data?
+
+Explain why representative workload data matters when optimizing inference.
+
+What conclusions can and cannot be drawn from a small calibration dataset?
+
+Describe how you would improve this experiment if you had access to more compute.
+
+What would you change if the model did not fit into available memory?
+
+Explain why a smaller quantized model can sometimes be preferable to a larger model.
+
+Describe the engineering trade-off between accuracy and deployment cost.
+
+What factors determine whether local inference is preferable to cloud inference?
+
+Explain privacy advantages of running an LLM locally.
+
+Describe the main operational risks of deploying an LLM application.
+
+What is prompt injection?
+
+How can an application reduce the impact of prompt injection?
+
+Explain why an LLM should not automatically be trusted with unrestricted tool access.
+
+Design a safe workflow for an AI assistant that can execute external actions.
+
+What is structured output and why is it useful in production AI systems?
+
+Describe how JSON schema validation can improve reliability of LLM applications.
+
+Explain function calling or tool calling in language models.
+
+What is an agentic workflow?
+
+Describe one situation where an AI agent should ask for human approval.
+
+How would you evaluate an LLM's ability to follow structured instructions?
+
+Explain why long context windows can increase computational cost.
+
+What is context-window truncation?
+
+Describe strategies for managing long conversations in an LLM application.
+
+Explain retrieval chunking and why chunk size matters in RAG systems.
+
+What is semantic search?
+
+Describe how vector databases support retrieval-augmented generation.
+
+What is a vector embedding?
+
+Explain cosine similarity.
+
+Why can retrieval systems return irrelevant documents?
+
+Describe three ways to improve RAG retrieval quality.
+
+What is reranking?
+
+Explain hybrid search combining keyword and vector retrieval.
+
+How would you evaluate a RAG system separately for retrieval and generation quality?
+
+Describe the difference between offline and online evaluation of an AI system.
+
+What is human evaluation and when is it necessary?
+
+Explain pairwise preference evaluation.
+
+Describe how you would construct a blind comparison of two model outputs.
+
+What are the risks of using an evaluation dataset that was used during model development?
+
+How can benchmark contamination affect reported model performance?
+
+Explain why reproducibility is important in AI research.
+
+Describe what experiment metadata should be saved alongside model results.
+
+What is a random seed and what does it control?
+
+Explain why deterministic inference can still be difficult on some hardware.
+
+Describe how you would compare CPU and GPU inference fairly.
+
+What should remain constant when comparing two hardware configurations?
+
+How would you investigate whether a performance difference comes from hardware or software?
+
+Explain the relationship between batch size and inference throughput.
+
+Why might larger batches increase throughput but also increase latency?
+
+Describe how context length affects memory usage during LLM inference.
+
+What is a KV cache?
+
+Why does KV-cache memory grow with context length?
+
+Explain why quantizing weights does not necessarily reduce every component of inference memory.
+
+Describe the difference between weight quantization and activation quantization.
+
+What is quantization-aware training?
+
+How does post-training quantization differ from quantization-aware training?
+
+Explain why some layers may be more sensitive to quantization than others.
+
+What is mixed-precision inference?
+
+Describe a scenario where keeping selected tensors at higher precision could improve quality.
+
+Why might an I-Quant format behave differently from a K-Quant format at the same nominal bit rate?
+
+What is the purpose of calibration data when constructing an importance matrix?
+
+How could a poorly chosen calibration corpus distort quantization results?
+
+Design an experiment to compare quantization at 2-bit, 3-bit, 4-bit, 5-bit, and 6-bit precision.
+
+What would you expect to happen to model size as bit precision decreases?
+
+What would you expect to happen to quality as bit precision decreases?
+
+Why might the quality curve not decline smoothly as precision decreases?
+
+How would you visualize the trade-off between file size and evaluation quality?
+
+How would you visualize the trade-off between model quality and tokens per second?
+
+What makes a quantization experiment convincing to a technical reviewer?
+
+What limitations should be disclosed in a personal quantization project?
+
+How would you explain a quantization project to a hiring manager who is not an ML researcher?
+
+Write a concise technical summary of an experiment comparing four model quantizations.
+
+Describe how you would turn an ML experiment into a reproducible GitHub repository.
+
+What makes a strong portfolio project demonstrate engineering ability rather than merely tool usage?
+
+Explain how careful measurement can turn a model-conversion task into an engineering experiment.
+
+What additional experiment would strengthen a comparison between K-Quant and I-Quant formats?
+
+How could you test whether calibration data from one domain transfers to another domain?
+
+Design a cross-domain calibration experiment using coding, mathematics, and general knowledge prompts.
+
+How would you determine whether an imatrix generated from coding prompts benefits general-purpose inference?
+
+Describe an experiment measuring the effect of calibration corpus size on quantization quality.
+
+What would you expect if calibration data increased from 100 to 1,000 prompts?
+
+How could you identify diminishing returns from additional calibration data?
+
+Explain why the calibration dataset should not simply contain repeated copies of the same prompts.
+
+Describe how you would create a held-out evaluation set for this quantization experiment.
+
+What is the difference between calibration data and evaluation data?
+
+Why should evaluation prompts not be used to generate the imatrix?
+
+Describe a fair procedure for selecting calibration data without leaking evaluation information.
+
+How would you document the exact llama.cpp commit used for an experiment?
+
+Why should software versions be recorded in ML experiment results?
+
+How would you capture hardware information for a local inference benchmark?
+
+Describe a reproducible naming convention for quantized model files.
+
+What metadata should accompany a published GGUF model?
+
+Explain why users need to know the original model and license when downloading a derivative GGUF.
+
+How would you communicate that a quantized model is derived from another model?
+
+What should a model README say about intended use and limitations?
+
+Describe how you would publish model files to Hugging Face while keeping source code on GitHub.
+
+What belongs in GitHub versus Hugging Face for an ML quantization project?
+
+How would you structure release notes for multiple quantized model variants?
+
+What evidence would you include in a portfolio README to demonstrate that you actually ran the experiments?
+
+How would you explain an unexpected performance regression?
+
+What is a controlled experiment?
+
+Why is changing multiple variables simultaneously problematic in an experiment?
+
+Design a controlled experiment comparing Q4_K_M and IQ4_XS.
+
+Design a controlled experiment comparing quantization with and without an imatrix.
+
+What variables should remain constant when comparing these configurations?
+
+How would you isolate the effect of quantization format from the effect of calibration data?
+
+What would a strong results table for this project contain?
+
+How would you interpret a result where IQ4_XS is smaller but slightly slower than Q4_K_M?
+
+How would you interpret a result where imatrix improves perplexity but reduces throughput?
+
+How would you decide which quantization to recommend to end users?
+
+Describe how user workload should influence the final recommendation.
+
+Explain why there may not be a single universally best quantization.
+
+What is a Pareto frontier in the context of model deployment trade-offs?
+
+How could you identify Pareto-optimal quantizations from benchmark results?
+
+Describe how you would make a final engineering recommendation based on imperfect experimental evidence.

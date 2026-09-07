@@ -1,0 +1,5 @@
+model,size_mib,size_gib,bpw,quantization_time_s
+Q4_K_M,4460.45,4.36,4.91,32.99
+Q4_K_M-imatrix,4460.45,4.36,4.91,48.54
+IQ4_XS,4047.72,3.95,4.46,91.62
+IQ4_XS-imatrix,4017.37,3.92,4.43,93.10

@@ -1,0 +1,41 @@
+CODING
+Write a Python function called `find_duplicates(nums)` that returns a list of duplicate integers in the input list. The function should run in O(n) expected time and use O(n) additional space. Include a brief explanation.
+
+CODING
+Given a list of integers, write Python code to find the length of the longest consecutive sequence in O(n) expected time. Include the code and a brief explanation of the algorithm.
+
+CODING
+Write a SQL query that returns the top 3 highest-paid employees in each department from a table `employees` with columns `employee_id`, `name`, `department_id`, and `salary`. Use a window function.
+
+MATH
+A fair six-sided die is rolled 4 times. What is the probability that at least one roll is a 6? Show the calculation.
+
+MATH
+A dataset has values 10, 20, 30, 40, and 100. Calculate the mean and median, and explain why they differ substantially.
+
+MATH
+If an investment grows by 8% per year compounded annually, approximately how much will $5,000 grow to after 10 years? Show the formula and calculation.
+
+REASONING
+Three boxes are labeled Apples, Oranges, and Apples & Oranges. Every label is incorrect. You may take one fruit from exactly one box. Which box should you choose, and how can you correctly relabel all three boxes?
+
+REASONING
+A software service has a latency problem. CPU utilization is 25%, memory utilization is 40%, but database query latency has increased sharply. Give three likely causes and explain how you would distinguish among them.
+
+REASONING
+You have 100 tasks and 4 workers. Each task takes approximately the same amount of time, but tasks cannot be split between workers. Explain how you would distribute the tasks to minimize the total completion time.
+
+JSON
+Return ONLY valid JSON with this exact schema:
+{"language":"...","framework":"...","confidence":0.0}
+For this request: A developer is building a REST API in Python using FastAPI.
+
+JSON
+Return ONLY valid JSON with this exact schema:
+{"operation":"...","complexity":"...","reason":"..."}
+For this request: Find an element in a hash table by key.
+
+JSON
+Return ONLY valid JSON with this exact schema:
+{"quant_type":"...","uses_imatrix":true,"relative_size":"..."}
+For this request: A model is Q4_K_M with an importance matrix applied during quantization.

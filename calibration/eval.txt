@@ -1,0 +1,180 @@
+Explain standard deviation in intuitive terms.
+
+What is the difference between mean, median, and mode?
+
+Describe what a probability distribution represents.
+
+Explain Bayes' theorem using a simple real-world example.
+
+What is the difference between supervised, unsupervised, and reinforcement learning?
+
+Explain the bias-variance trade-off in machine learning.
+
+What is a confusion matrix?
+
+Explain why accuracy can be misleading when classes are highly imbalanced.
+
+Describe the purpose of cross-validation.
+
+What is feature engineering, and why can it improve a machine learning model?
+
+Explain regularization and compare L1 and L2 regularization.
+
+What is the difference between batch, stochastic, and mini-batch gradient descent?
+
+Explain why normalization or standardization of input features can help model training.
+
+What is an embedding in a machine learning model?
+
+Explain what a transformer architecture is at a high level.
+
+What does self-attention allow a transformer to do?
+
+Explain the purpose of positional information in transformer models.
+
+What is a token in a language model?
+
+Why do language models use tokenization instead of processing raw text character by character?
+
+Explain the difference between training, validation, and test datasets.
+
+What is perplexity and how is it used to evaluate language models?
+
+Explain temperature sampling in text generation.
+
+What are top-k and top-p sampling?
+
+Describe the difference between greedy decoding and beam search.
+
+What is an autoregressive language model?
+
+Explain the difference between a base language model and an instruction-tuned model.
+
+Why can a language model produce confident but incorrect answers?
+
+Describe hallucination in generative AI and two approaches for reducing it.
+
+What is retrieval-augmented generation and why can it improve factual responses?
+
+Explain the difference between fine-tuning and prompt engineering.
+
+What is parameter-efficient fine-tuning?
+
+Explain the basic idea behind LoRA.
+
+What is quantization in machine learning?
+
+Why does reducing numerical precision reduce model size?
+
+Explain the difference between FP32, FP16, BF16, INT8, and INT4.
+
+What is the difference between symmetric and asymmetric quantization?
+
+Explain why quantization can reduce inference memory requirements.
+
+Why can aggressive quantization sometimes reduce model quality?
+
+Describe the trade-off between model size, quality, and inference speed.
+
+What is a calibration dataset in model quantization?
+
+Explain why calibration data should be representative of the intended workload.
+
+What is an importance matrix in the context of neural network quantization?
+
+Explain why different model layers may respond differently to quantization.
+
+Compare a 4-bit model with an 8-bit model in terms of memory and potential quality.
+
+What factors should be considered when choosing a quantization format for local inference?
+
+Describe what GGUF is and why it is useful for local language model inference.
+
+Explain what llama.cpp is designed to do.
+
+What is GPU offloading in local LLM inference?
+
+Why might running a model entirely on a CPU be slower than using a GPU or accelerator?
+
+Explain how memory bandwidth can affect LLM inference performance.
+
+What is the difference between prompt processing and token generation?
+
+Why can the first generated token take longer than subsequent tokens?
+
+Define tokens per second and explain why it is useful for comparing inference configurations.
+
+What factors can cause tokens-per-second performance to vary between machines?
+
+Explain the difference between latency and throughput.
+
+Design a benchmark for comparing two local language model quantizations.
+
+What measurements would you record when evaluating a quantized model?
+
+How would you make a model benchmark reproducible?
+
+Explain why random seeds matter when evaluating generative models.
+
+What is an A/B experiment and how could it be used to compare two LLM quantizations?
+
+Describe a fair method for comparing the output quality of two language models.
+
+Write Python code that reads a JSON file and prints all records where the age field is greater than 30.
+
+Write a Python function that returns the first non-repeating character in a string.
+
+Write Python code to group a list of dictionaries by a specified field.
+
+Write a SQL query that returns monthly revenue from an orders table.
+
+Write a SQL query that calculates the average order value for each customer.
+
+Write a SQL query that returns customers who have never placed an order.
+
+Explain what a database transaction is.
+
+Describe the ACID properties of a relational database transaction.
+
+What is a deadlock in a database?
+
+Explain optimistic versus pessimistic locking.
+
+Describe how database connection pooling works.
+
+What is a primary key and why should it be unique?
+
+What is a foreign key?
+
+Explain the difference between OLTP and OLAP workloads.
+
+Describe the purpose of a data warehouse.
+
+What is a star schema?
+
+Explain the difference between batch processing and stream processing.
+
+What is ETL and how does it differ from ELT?
+
+Explain what a data pipeline does.
+
+Describe three ways a data pipeline can fail and how to detect them.
+
+What is data validation and why is it important?
+
+Explain the difference between missing data and zero values.
+
+How would you detect outliers in a numerical dataset?
+
+Describe two approaches for handling missing values.
+
+Explain why data leakage is dangerous in machine learning.
+
+What is concept drift in a deployed machine learning system?
+
+Describe how you would monitor a machine learning model after deployment.
+
+What is an inference endpoint?
+
+Explain the difference between synchronous and asynchronous APIs.
+

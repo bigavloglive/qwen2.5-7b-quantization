@@ -1,0 +1,5 @@
+model,prompt_tokens_per_sec_avg,generation_tokens_per_sec_avg
+Q4_K_M,409.3,26.37
+Q4_K_M-imatrix,351.4,26.20
+IQ4_XS,357.3,28.60
+IQ4_XS-imatrix,369.8,29.10

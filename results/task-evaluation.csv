@@ -1,0 +1,25 @@
+model,task_id,category,score,max_score,notes
+Q4_K_M,C1,Coding,3,3,Correct O(n) dictionary-based approach
+Q4_K_M,C2,Coding,3,3,Correct O(n) set-based approach
+Q4_K_M,M1,Math,3,3,Correct mean median and outlier explanation
+Q4_K_M,R1,Reasoning,3,3,Correct box-selection and relabeling logic
+Q4_K_M,J1,JSON,3,3,Valid exact-schema JSON
+Q4_K_M,J2,JSON,3,3,Valid exact-schema JSON and correct average complexity
+Q4_K_M-imatrix,C1,Coding,3,3,Correct O(n) dictionary-based approach
+Q4_K_M-imatrix,C2,Coding,3,3,Correct O(n) set-based approach
+Q4_K_M-imatrix,M1,Math,3,3,Correct mean median and outlier explanation
+Q4_K_M-imatrix,R1,Reasoning,3,3,Correct box-selection and relabeling logic
+Q4_K_M-imatrix,J1,JSON,3,3,Valid exact-schema JSON
+Q4_K_M-imatrix,J2,JSON,3,3,Valid exact-schema JSON and correct average complexity
+IQ4_XS,C1,Coding,1,3,Algorithm idea understood but implementation had undefined duplicates variable
+IQ4_XS,C2,Coding,3,3,Correct O(n) set-based approach
+IQ4_XS,M1,Math,3,3,Correct mean median and outlier explanation
+IQ4_XS,R1,Reasoning,3,3,Correct box-selection and relabeling logic
+IQ4_XS,J1,JSON,3,3,Valid exact-schema JSON
+IQ4_XS,J2,JSON,3,3,Valid exact-schema JSON and correct complexity
+IQ4_XS-imatrix,C1,Coding,3,3,Correct O(n) dictionary-based approach
+IQ4_XS-imatrix,C2,Coding,3,3,Correct O(n) set-based approach
+IQ4_XS-imatrix,M1,Math,3,3,Correct mean median and outlier explanation
+IQ4_XS-imatrix,R1,Reasoning,2,3,Core reasoning correct but final summary contained contradictory relabeling
+IQ4_XS-imatrix,J1,JSON,3,3,Valid exact-schema JSON
+IQ4_XS-imatrix,J2,JSON,3,3,Valid exact-schema JSON and correct complexity

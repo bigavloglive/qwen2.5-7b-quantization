@@ -1,0 +1,20 @@
+# Large model artifacts
+models/*.gguf
+
+# Generated importance matrices
+calibration/*.gguf
+
+# Local logs
+logs/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,40 @@
+Explain why the sky appears blue during the day and why sunsets often appear red or orange.
+
+Write a Python function that takes a list of integers and returns the two largest distinct values. Explain the time and space complexity.
+
+What is the derivative of f(x) = x^3 + 2x^2 - 5x + 7? Show the steps.
+
+Design a REST API endpoint for creating a new user. Describe the request body, validation rules, response format, and possible error responses.
+
+Explain the difference between a Python list, tuple, set, and dictionary, including when each data structure is most appropriate.
+
+A company has 120 employees. 35% work remotely, and 40% of the remote employees work from another state. How many employees work remotely from another state?
+
+Write a SQL query that returns the top five customers by total purchase amount from an orders table containing customer_id and amount columns.
+
+Explain the concept of recursion using a simple example, and compare it with an iterative solution.
+
+Summarize the main considerations when designing a reliable distributed system.
+
+A software team is debugging a production service that occasionally returns HTTP 500 errors. Propose a systematic investigation strategy.
+
+Explain overfitting in machine learning and describe three techniques commonly used to reduce it.
+
+Given a sorted array of integers, explain how binary search works and provide pseudocode.
+
+What are the advantages and disadvantages of using JSON for exchanging data between services?
+
+Explain the difference between precision, recall, and F1 score and give an example where precision is more important than recall.
+
+Write a Python function that determines whether a string is a palindrome while ignoring spaces, punctuation, and capitalization.
+
+Describe the purpose of attention mechanisms in transformer-based language models.
+
+Explain how gradient descent works when training a neural network.
+
+A user asks an AI assistant to return a JSON object containing their name, age, and city. Describe how you would ensure the output follows the required schema.
+
+Explain the trade-offs between increasing model size and increasing numerical precision when deploying a language model locally.
+
+Describe three potential causes of slow inference in a locally hosted language model and how you would diagnose each one.
+
